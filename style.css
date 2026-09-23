@@ -84,3 +84,14 @@
 .portfolio-item:hover{
     transform: scale(1.05);
 }
+
+
+#footer {
+    background-color: #222;
+    color: #fff;
+    padding: 2em;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
