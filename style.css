@@ -2,7 +2,7 @@
     background-color: #333;
     font-size: 1.2em;
     padding: 1em;
-    align-items: center;
+    text-align: center;
     position: fixed;
     width: 100%;
     top: 0;
@@ -15,12 +15,12 @@
     padding: 0;
 }
 
-.navbar li {
+.navbar ul li {
     display: inline;
     margin: 0 1em;
 }
 
-.navbar li a {
+.navbar ul li a {
     color: #fff;
 }
 
@@ -28,9 +28,12 @@
     padding-top: 5em;
 }
 
-#home {
+section {
     padding: 2em 1em;
-    align-items: center;
+    text-align: center;
+}
+
+#home {
     margin-bottom: 0.5em;
 }
 
@@ -41,11 +44,6 @@
 #home p {
     font-size: 1.2em;
     color: #666;
-}
-
-#portfolio {
-    padding: 2em 1em;
-    align-items: center;
 }
 
 .portfolio-container {
@@ -63,7 +61,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 30%;
     box-sizing: border-box;
-    transition: 0.3s;
+    transition: transform 0.3s;
 }
 
 .portfolio-item h3 {
@@ -81,7 +79,7 @@
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.portfolio-item:hover{
+.portfolio-item:hover {
     transform: scale(1.05);
 }
 
@@ -90,7 +88,7 @@
     background-color: #222;
     color: #fff;
     padding: 2em;
-    align-items: center;
+    text-align: center;
     position: relative;
     bottom: 0;
     width: 100%;
